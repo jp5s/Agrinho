@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  justify-content: center; /* Centraliza no eixo vertical */
+  align-items: center; /* Centraliza no eixo horizontal */
+  height: 100%; /* Faz o body ocupar 100% da altura da tela */
+  margin: 0; /* Remove a margem padrão */
+  text-align: center; /* Centraliza os textos */
+  background-image: url(/img/campo.jpg);
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem no fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+  text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */    
+img {
+  max-width: 100%; /* A imagem nunca ultrapassará a largura da tela */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+  color: #333; /* Um tom de cinza escuro */
+  margin-top: 20px; /* Espaço superior */
+  font-size: 2em; /* Tamanho da fonte do título principal */
+}
+
+/* Estilo para o subtítulo h2 */
+h2 {
+  color: #555; /* Um tom de cinza mais suave */
+  margin-top: 15px; /* Espaço superior */
+  font-size: 1.5em; /* Tamanho da fonte do subtítulo */
+}
+
+#imagem {
+  width: 100%; /* Faz com que a imagem ocupe 100% da largura disponível */
+  max-width: 400px; /* Limita o tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+button {
+  background-color: #fdeecf;
+  color: #37260c;
+  border: 2px solid #37260c;
+  padding: 10px 20px; /* Ajusta o preenchimento do botão */
+  border-radius: 10px; /* Bordas arredondadas mais suaves */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor quando passar por cima */
+}
+
+button:hover {
+  background-color: #f9d89c; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+#rodape {
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px; /* Largura máxima */
+  margin: 30px auto; /* Centraliza a div horizontalmente */
+}
+
+/* Estilo para o conteúdo do trabalho */
+#trabalho-corpo {
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px; /* Largura máxima */
+  margin: 30px auto; /* Centraliza a div horizontalmente */
+}
+
+#trabalho-corpo ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding-left: 0; /* Remove o preenchimento da lista */
+}
+
+#trabalho-corpo li {
+  margin-bottom: 15px; /* Espaçamento entre os itens */
+  font-family: Arial, sans-serif; /* Fonte */
+  line-height: 1.6; /* Espaçamento entre as linhas */
+}
+
+#trabalho-corpo li strong {
+  color: #007BFF; /* Cor azul para os títulos */
+}
+
+#trabalho-corpo li code {
+  background-color: #f1f1f1; /* Cor de fundo para o código */
+  padding: 2px 6px; /* Espaçamento dentro do código */
+  border-radius: 4px; /* Bordas arredondadas no código */
+  font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+  color: #333; /* Cor do texto do código */
+}
+
+#trabalho-corpo li:last-child {
+  margin-bottom: 0; /* Remove o espaçamento extra do último item */
+}
+
+/* Estilo para os ícones ou imagens específicas */
+#icone-programacao {
+  width: 100%; /* Faz com que a imagem ocupe 100% da largura disponível */
+  max-width: 300px; /* Limita o tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+#img {
+  width: 100%; /* Faz com que a imagem ocupe 100% da largura disponível */
+  max-width: 400px; /* Limita o tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+}
